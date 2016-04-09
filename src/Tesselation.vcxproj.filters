@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{4e3e02af-6533-48a0-8a3c-1e765ae64f03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Main">
+      <UniqueIdentifier>{ca42af80-ec24-4624-a19c-8436d4d64bda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ext">
+      <UniqueIdentifier>{d4713a96-531d-41e3-bc61-574c9e896f5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shader">
+      <UniqueIdentifier>{fd0a6c95-2621-4249-aa30-770bdf637d8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shader\geo_tri">
+      <UniqueIdentifier>{0adbfd04-1975-4093-a7da-3cc4408ce85d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shader\geo_quad_holes">
+      <UniqueIdentifier>{7d18d40f-4065-499f-a253-095b7d76819a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shader\geo_quad">
+      <UniqueIdentifier>{a037f0c6-36e5-44f6-b307-41d51e1e2002}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shader\geo_quad_simple">
+      <UniqueIdentifier>{2b17bf1f-cbed-43c2-9581-e7995562e398}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util">
+      <UniqueIdentifier>{0d604ac1-2419-4338-8200-51a9f1e4cd9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="procedural">
+      <UniqueIdentifier>{3f507a90-131e-4e4f-b96b-c06dbf24e0b4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>src\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ext\glew.cpp">
+      <Filter>ext</Filter>
+    </ClCompile>
+    <ClCompile Include="Bmp.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="Core.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="VecMath.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Procedural_Leaf.h">
+      <Filter>src\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Procedural_Leaf_Trunk.h">
+      <Filter>src\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Procedural_Terrain.h">
+      <Filter>src\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Procedural_Trunk.h">
+      <Filter>src\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ext\glew.h">
+      <Filter>ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ext\glxew.h">
+      <Filter>ext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ext\wglew.h">
+      <Filter>ext</Filter>
+    </ClInclude>
+    <ClInclude Include="Bmp.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="Core.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="glsl.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="opengl_FBO.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="VecMath.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="Procedural.h">
+      <Filter>procedural</Filter>
+    </ClInclude>
+    <ClInclude Include="Procedural_bsphere.h">
+      <Filter>procedural</Filter>
+    </ClInclude>
+    <ClInclude Include="Procedural_draw.h">
+      <Filter>procedural</Filter>
+    </ClInclude>
+    <ClInclude Include="Procedural_map.h">
+      <Filter>procedural</Filter>
+    </ClInclude>
+    <ClInclude Include="Procedural_tables.h">
+      <Filter>procedural</Filter>
+    </ClInclude>
+    <ClInclude Include="Procedural_vbo.h">
+      <Filter>procedural</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\shader\geo_tri\frag.txt">
+      <Filter>shader\geo_tri</Filter>
+    </Text>
+    <Text Include="..\shader\geo_tri\geo.txt">
+      <Filter>shader\geo_tri</Filter>
+    </Text>
+    <Text Include="..\shader\geo_tri\tcs.txt">
+      <Filter>shader\geo_tri</Filter>
+    </Text>
+    <Text Include="..\shader\geo_tri\tes.txt">
+      <Filter>shader\geo_tri</Filter>
+    </Text>
+    <Text Include="..\shader\geo_tri\vs.txt">
+      <Filter>shader\geo_tri</Filter>
+    </Text>
+    <Text Include="..\shader\geo_quad_holes\frag.txt">
+      <Filter>shader\geo_quad_holes</Filter>
+    </Text>
+    <Text Include="..\shader\geo_quad_holes\geo.txt">
+      <Filter>shader\geo_quad_holes</Filter>
+    </Text>
+    <Text Include="..\shader\geo_quad_holes\tcs.txt">
+      <Filter>shader\geo_quad_holes</Filter>
+    </Text>
+    <Text Include="..\shader\geo_quad_holes\tes.txt">
+      <Filter>shader\geo_quad_holes</Filter>
+    </Text>
+    <Text Include="..\shader\geo_quad_holes\vs.txt">
+      <Filter>shader\geo_quad_holes</Filter>
+    </Text>
+    <Text Include="..\shader\geo_quad\frag.txt">
+      <Filter>shader\geo_quad</Filter>
+    </Text>
+    <Text Include="..\shader\geo_quad\geo.txt">
+      <Filter>shader\geo_quad</Filter>
+    </Text>
+    <Text Include="..\shader\geo_quad\tcs.txt">
+      <Filter>shader\geo_quad</Filter>
+    </Text>
+    <Text Include="..\shader\geo_quad\tes.txt">
+      <Filter>shader\geo_quad</Filter>
+    </Text>
+    <Text Include="..\shader\geo_quad\vs.txt">
+      <Filter>shader\geo_quad</Filter>
+    </Text>
+    <Text Include="..\shader\geo_quad_simple\frag.txt">
+      <Filter>shader\geo_quad_simple</Filter>
+    </Text>
+    <Text Include="..\shader\geo_quad_simple\vs.txt">
+      <Filter>shader\geo_quad_simple</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
